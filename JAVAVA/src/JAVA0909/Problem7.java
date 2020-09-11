@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Problem7 {
 
 	public static void main(String[] args) {
-		double sum = 0;
-		double avg = 0;
-
+		int sum = 0;
+		double avg = 0.0;
 		Scanner sc = new Scanner(System.in);
 		int[] arr = new int[5];
+		
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print((i + 1) + "번째 학생의 점수 :");
 			arr[i] = sc.nextInt();
